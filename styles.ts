@@ -32,6 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        padding-top: 84px;
         background-color: ${colors.background};
         scroll-behavior: smooth;
     }

@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import { colors } from '../../../../styles';
 
 export const Header = styled.header`
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.8); 
+    background: rgba(255, 255, 255, 0.6); 
     backdrop-filter: blur(10px);
 
     .container {
@@ -28,11 +29,13 @@ export const Header = styled.header`
 
                 a {
                     text-decoration: none;
-                    color: #333;
+                    color: ${colors.primary};
                     padding: 12px 16px;
+                    border-bottom: 2px solid transparent;
+                    transition: border-bottom 0.3s;
 
             &:hover {
-                background: rgba(0, 0, 0, 0.1);
+                border-bottom: 2px solid ${colors.secondary};
             }
         }
     }

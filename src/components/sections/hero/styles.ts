@@ -24,3 +24,16 @@ export const Hero = styled.div`
         color: ${colors.primary};
     }
 `;
+
+export const HeroContent = styled.div`
+    max-width: 500px;
+    display: flex;  
+    flex-direction: column;
+    gap: 1.5rem;
+`;
+
+export const HeroContentCopy = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+`;
