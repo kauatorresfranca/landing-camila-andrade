@@ -12,7 +12,9 @@ const Hero = () => {
             Especializada em direito de família, oferecendo suporte integral e humanizado para mulheres em processo de separação e divórcio.
           </p>
         </S.HeroContentCopy>
-        <Button>Agende uma consulta</Button>
+        <S.HeroButtonWrapper>
+          <Button type='primary'>Agende uma consulta</Button>
+        </S.HeroButtonWrapper>
       </S.HeroContent>
       <img src={heroImage} alt="" />
     </S.Hero>

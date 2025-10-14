@@ -2,11 +2,12 @@ import * as S from './styles'
 
 type ButtonProps = {
   children: React.ReactNode
+  type?: 'primary' | 'secondary'
 }
 
-const Button = ({ children }: ButtonProps) => {
+const Button = ({ children, type }: ButtonProps) => {
   return (
-    <S.Button>
+    <S.Button type={type}>
       {children}
     </S.Button>
   )

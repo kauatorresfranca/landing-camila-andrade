@@ -9,11 +9,13 @@ export const breakpoints = {
 
 export const colors = {
     primary: '#2c3e50',
+    primaryTransparent: 'rgba(44, 62, 80, 0.4)',
     primaryDark: '#1a2332',
     secondary: '#d4b883',
+    secondaryTransparent: 'rgba(212, 184, 131, 0.4)',
     secondaryDark: '#b8965f',
     background: '#fff',
-    text: '#333',
+    text: '#555',
 }
 
 export const GlobalStyle = createGlobalStyle`

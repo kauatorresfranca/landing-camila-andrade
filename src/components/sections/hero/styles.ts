@@ -21,7 +21,8 @@ export const Hero = styled.div`
     }
 
     p {
-        color: ${colors.primary};
+        font-size: 14px;
+        color: ${colors.text};
     }
 `;
 
@@ -36,4 +37,8 @@ export const HeroContentCopy = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+`;
+
+export const HeroButtonWrapper = styled.div`
+    max-width: 60%;
 `;
