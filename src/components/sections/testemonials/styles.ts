@@ -42,7 +42,7 @@ export const TestimonialItem = styled.div`
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     color: ${colors.text};
     line-height: 1.6;
     margin-bottom: 1rem;

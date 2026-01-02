@@ -23,19 +23,28 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        list-style: none;
-        text-decoration: none;
         font-family: 'Roboto', sans-serif;
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
     }
 
     body {
         padding-top: 84px;
         background-color: ${colors.background};
-        scroll-behavior: smooth;
+        color: ${colors.text};
+        line-height: 1.5;
     }
-`
+
+    .container {
+        max-width: 1140px; // Padrão Bootstrap/Moderno
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    h1, h2, h3 {
+        color: ${colors.primary};
+        font-weight: 700;
+    }
+
+    a {
+        text-decoration: none; // Removido por padrão
+    }
+`;

@@ -28,6 +28,11 @@ export const ServiceItem = styled.div`
     padding: 1.5rem;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 
+    h4 {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
     img {
         max-width: 50px;
         padding: 0.5rem;

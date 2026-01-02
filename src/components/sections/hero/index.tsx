@@ -4,20 +4,23 @@ import Button from '../../ui/button'
 
 const Hero = () => {
   return (
-    <S.Hero className='container'>
-      <S.HeroContent>
-        <S.HeroContentCopy>
-          <h3>Apoio jurídico <span>humano</span> em momentos<span> decisivos</span></h3>
+    <S.HeroSection>
+      <div className="container">
+        <S.Content>
+          <span>ESPECIALISTA EM DIREITO DE FAMÍLIA</span>
+          <h1>Apoio jurídico humano em momentos decisivos</h1>
           <p>
-            Especializada em direito de família, oferecendo suporte integral e humanizado para mulheres em processo de separação e divórcio.
+            Oferecemos suporte integral e especializado para proteger seus direitos e sua família em processos de separação, divórcio e guarda.
           </p>
-        </S.HeroContentCopy>
-        <S.HeroButtonWrapper>
-          <Button type='primary'>Agende uma consulta</Button>
-        </S.HeroButtonWrapper>
-      </S.HeroContent>
-      <img src={heroImage} alt="" />
-    </S.Hero>
+          <div className="button-group">
+            <Button type='primary'>Falar com a Dra. Camila</Button>
+          </div>
+        </S.Content>
+        <S.ImageSide>
+          <img src={heroImage} alt="Dra. Camila Andrade" />
+        </S.ImageSide>
+      </div>
+    </S.HeroSection>
   )
 }
 
